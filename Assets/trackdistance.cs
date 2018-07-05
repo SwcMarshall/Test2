@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class trackdistance : MonoBehaviour {
 
+    //BIG AWL CHANGE GITHUB!?!??!
+
     public float distanceTravelled = 0;
     Vector3 lastPosition;
 

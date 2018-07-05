@@ -17,7 +17,7 @@ public class trackdistance : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log(distanceTravelled);
+        Debug.Log(distanceTravelled + "ok this time it will work");
         distanceTravelled += Vector3.Distance(transform.position, lastPosition);
         lastPosition = transform.position;
     }
